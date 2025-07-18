@@ -1,164 +1,296 @@
+<!-- 
+    Last Modified: 2025-07-18 12:40
+    Author: Maxim
+    Contact: https://www.maxim.pe.kr
+    License: © 2025 Maxim. All Rights Reserved.
+-->
 <!DOCTYPE html>
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title data-lang="site_title">유비홀릭 - 편안함이 채워주는 아름다움</title>
-    <meta name="description" content="유비홀릭은 속눈썹 연장, 펌, 피부관리 전문 뷰티샵입니다.">
-    <meta name="keywords" content="유비홀릭, UB HOLIC, 전주 속눈썹, 익산 속눈썹, 전주 피부관리, 익산 피부관리, 왁싱">
     <meta name="robots" content="index,follow">
-    <meta name="author" content="maxim">
-    <link rel="icon" href="./favicon.png" type="image/png">
-    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&family=Noto+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title data-lang="site_title">유비홀릭 - 프리미엄 에스테틱</title>
+    <meta name="description" content="유비홀릭(UBHOLIC)은 전문적인 관리로 당신의 일상에 활력과 아름다움을 선사하는 프리미엄 에스테틱입니다.">
+    <meta name="keywords" content="유비홀릭, 에스테틱, 피부관리, 속눈썹, 전주 피부관리, 익산 피부관리">
+    <link rel="canonical" href="https://www.ubholic.com/">
+    
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="UBHOLIC">
+    <meta property="og:url" content="https://www.ubholic.com/">
+    <meta property="og:title" content="유비홀릭 - 프리미엄 에스테틱">
+    <meta property="og:description" content="전문적인 관리로 당신의 일상에 활력과 아름다움을 선사합니다.">
+    <meta property="og:image" content="https://www.ubholic.com/section/home/01.jpg">
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Noto+Sans+KR:wght@300;400;700&family=Poppins:wght@300;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://onepage.maxim.pe.kr/v1/v1.css">
+    <link rel="stylesheet" href="./lay.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+
+    <script src="./lang.js" defer></script>
+    <script src="./lay.js" defer></script>
+    <script src="https://onepage.maxim.pe.kr/v1/v1_lang.js" defer></script>
+    <script src="https://onepage.maxim.pe.kr/v1/v1.js" defer></script>
+
+    <!-- SEO: JSON-LD for Rich Snippets -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BeautySalon",
+      "name": "UBHOLIC",
+      "image": "https://www.ubholic.com/section/home/01.jpg",
+      "description": "유비홀릭(UBHOLIC)은 전문적인 관리로 당신의 일상에 활력과 아름다움을 선사하는 프리미엄 에스테틱입니다.",
+      "address": [
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "전북 전주시 완산구 소태정3길 16-1",
+          "addressLocality": "전주시",
+          "addressRegion": "전북",
+          "addressCountry": "KR"
+        },
+        {
+          "@type": "PostalAddress",
+          "streetAddress": "전북 익산시 궁동로 96 애플빌딩 2층",
+          "addressLocality": "익산시",
+          "addressRegion": "전북",
+          "addressCountry": "KR"
+        }
+      ],
+      "url": "https://www.ubholic.com/",
+      "telephone": "+8250713361520"
+    }
+    </script>
 </head>
 <body>
     <nav id="navbar">
         <div class="nav-container">
-            <a href="#home" class="logo" data-lang="logo_text">유비홀릭</a>
+            <a href="#home" class="logo" data-lang="logo_text"></a>
             <div class="nav-buttons">
                 <div id="lang-switcher">
-                    <button data-lang-set="ko">KR</button>
-                    <button data-lang-set="vi">VN</button>
+                    <button data-lang-set="ko" class="active">KR</button>
                     <button data-lang-set="en">EN</button>
                 </div>
-                <a href="#contact" id="contact-btn" class="nav-icon-button" aria-label="Contact Us">
-                    <span class="material-symbols-outlined">call</span>
+                <a href="#location" class="nav-icon-button" aria-label="Location">
+                    <span class="material-symbols-outlined">location_on</span>
                 </a>
             </div>
         </div>
     </nav>
 
-    <section id="home" class="fullscreen">
+    <header id="home" class="fullscreen">
         <div class="slides-container">
-            <div class="slide active" style="background-image: url('./images/slide_01.jpg');"></div>
-            <div class="slide" style="background-image: url('./images/slide_02.jpg');"></div>
-            <div class="slide" style="background-image: url('./images/slide_03.jpg');"></div>
-        </div>
-        <div class="overlay"></div>
-        <div class="content">
-            <h1 data-lang="home_title">UBHOLIC</h1>
-            <p data-lang="home_subtitle" class="subtitle">편안함이 채워주는 아름다움, 속눈썹부터 피부까지</p>
-        </div>
-    </section>
-
-    <section id="branches" class="section fade-in-section">
-        <div class="container">
-            <h2> <span class="material-symbols-outlined">store</span> <span data-lang="branches_title">지점 안내</span> </h2>
-            <p data-lang="branches_desc">지점 클릭 시 네이버 지도로 연결됩니다.</p>
-            <div class="branches-content">
-                <a href="https://naver.me/FvQXWtTY" target="_blank" class="branch-item ui-card">
-                    <img src="./images/branch_placeholder_01.jpg" alt="유비홀릭 전주본점" class="ui-card-image">
-                    <div class="ui-card-content">
-                        <h3 class="ui-card-title" data-lang="branch1_name">전주본점</h3>
-                        <p class="ui-card-description" data-lang="branch1_address">전북 전주시 완산구 소태정3길 16-1 1층</p>
-                        <p class="ui-card-description" data-lang="branch1_tel">0507-1336-1520</p>
-                    </div>
-                </a>
-                <a href="https://naver.me/GziC29yG" target="_blank" class="branch-item ui-card">
-                    <img src="./images/branch_placeholder_02.jpg" alt="유비홀릭 익산점" class="ui-card-image">
-                    <div class="ui-card-content">
-                        <h3 class="ui-card-title" data-lang="branch2_name">익산점</h3>
-                        <p class="ui-card-description" data-lang="branch2_address">전북 익산시 궁동로 96 애플빌딩 2층</p>
-                        <p class="ui-card-description" data-lang="branch2_tel">0507-1390-1189</p>
-                    </div>
-                </a>
+            <div class="slide active">
+                <img src="./section/home/01.jpg" alt="편안한 분위기의 에스테틱 내부 전경">
+            </div>
+            <div class="slide">
+                <img src="./section/home/02.jpg" alt="전문적인 케어 도구들이 정돈된 모습">
             </div>
         </div>
-    </section>
+        <canvas class="canvas-stars"></canvas>
+        <div class="overlay has-dot-pattern"></div>
+        <div class="content js-parallax-content">
+            <h1 class="home-logo">UBHOLIC</h1>
+            <p class="subtitle" data-lang="home_subtitle"></p>
+        </div>
+        <div class="slide-indicators"></div>
+    </header>
 
-    <section id="services" class="section fade-in-section">
-        <div class="container">
-            <h2> <span class="material-symbols-outlined">spa</span> <span data-lang="services_title">주요 서비스</span> </h2>
-            <p data-lang="services_desc">유비홀릭의 전문적인 뷰티 서비스를 만나보세요.</p>
-            <div class="service-gallery">
-                <div class="service-item ui-card">
-                    <img src="./images/service_placeholder_01.jpg" alt="속눈썹 연장" class="ui-card-image">
-                    <div class="ui-card-content">
-                        <h4 class="ui-card-title" data-lang="service1_title">속눈썹 연장</h4>
-                        <p class="ui-card-description" data-lang="service1_desc">자연스럽고 풍성한 속눈썹으로 매력적인 눈매 완성</p>
+    <main>
+        <section id="overview" class="section fade-in-section">
+            <div class="container">
+                <h2>
+                    <span class="material-symbols-outlined">self_improvement</span>
+                    <span data-lang="overview_title">일상에 스며드는 편안함과 아름다움</span>
+                </h2>
+                <p class="section-description" data-lang="overview_desc">유비홀릭은 고객 한 분 한 분에게 맞춘 전문적인 케어로 몸과 마음에 진정한 휴식과 활력을 선사하는 프리미엄 에스테틱입니다.</p>
+            </div>
+        </section>
+
+        <section id="services_skincare" class="section fade-in-section">
+            <div class="container">
+                <h2><span class="material-symbols-outlined">spa</span><span data-lang="skincare_title"></span></h2>
+                <p class="section-description" data-lang="skincare_desc"></p>
+                <div class="card-grid">
+                    <div class="ui-card">
+                        <img src="./section/services/skincare_01.jpg" alt="테라피 관리를 받는 모습" class="ui-card-image">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="skincare_card_01_title"></h3>
+                            <h4 class="options-list-header sub" data-lang="skincare_card_01_subtitle_01"></h4>
+                            <div class="product-details" data-content-type="product" data-prefix="skincare_therapy_face" data-product-type="price" data-dynamic-area></div>
+                            <h4 class="options-list-header sub" data-lang="skincare_card_01_subtitle_02"></h4>
+                            <div class="product-details" data-content-type="product" data-prefix="skincare_therapy_body" data-product-type="price" data-dynamic-area></div>
+                        </div>
                     </div>
-                </div>
-                <div class="service-item ui-card">
-                    <img src="./images/service_placeholder_02.jpg" alt="속눈썹 펌" class="ui-card-image">
-                    <div class="ui-card-content">
-                        <h4 class="ui-card-title" data-lang="service2_title">속눈썹 펌</h4>
-                        <p class="ui-card-description" data-lang="service2_desc">뷰러 없이도 아찔한 컬링 유지</p>
+                    <div class="ui-card">
+                        <img src="./section/services/skincare_02.jpg" alt="집중 관리 케어를 받는 모습" class="ui-card-image">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="skincare_card_02_title"></h3>
+                            <div class="product-details" data-content-type="product" data-prefix="skincare_intensive" data-product-type="price" data-dynamic-area></div>
+                        </div>
                     </div>
-                </div>
-                <div class="service-item ui-card">
-                    <img src="./images/service_placeholder_03.jpg" alt="속눈썹 복원" class="ui-card-image">
-                    <div class="ui-card-content">
-                        <h4 class="ui-card-title" data-lang="service3_title">속눈썹 복원</h4>
-                        <p class="ui-card-description" data-lang="service3_desc">손상된 속눈썹을 건강하고 탄력있게</p>
-                    </div>
-                </div>
-                <div class="service-item ui-card">
-                    <img src="./images/service_placeholder_04.jpg" alt="눈썹 & 아이라인" class="ui-card-image">
-                    <div class="ui-card-content">
-                        <h4 class="ui-card-title" data-lang="service4_title">눈썹 & 아이라인</h4>
-                        <p class="ui-card-description" data-lang="service4_desc">또렷하고 자연스러운 반영구 메이크업</p>
-                    </div>
-                </div>
-                <div class="service-item ui-card">
-                    <img src="./images/service_placeholder_05.jpg" alt="왁싱" class="ui-card-image">
-                    <div class="ui-card-content">
-                        <h4 class="ui-card-title" data-lang="service5_title">왁싱</h4>
-                        <p class="ui-card-description" data-lang="service5_desc">매끄럽고 깨끗한 피부를 위한 전문 왁싱</p>
-                    </div>
-                </div>
-                <div class="service-item ui-card">
-                    <img src="./images/service_placeholder_06.jpg" alt="피부관리" class="ui-card-image">
-                    <div class="ui-card-content">
-                        <h4 class="ui-card-title" data-lang="service6_title">피부관리</h4>
-                        <p class="ui-card-description" data-lang="service6_desc">맞춤형 케어로 건강하고 빛나는 피부</p>
+                    <div class="ui-card">
+                        <img src="./section/services/skincare_03.jpg" alt="통증 관리 케어를 받는 모습" class="ui-card-image">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="skincare_card_03_title"></h3>
+                            <div class="product-details" data-content-type="product" data-prefix="skincare_pain" data-product-type="price" data-dynamic-area></div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <section id="location" class="section fade-in-section">
-        <div class="container">
-            <h2> <span class="material-symbols-outlined">location_on</span> <span data-lang="location_title">찾아오는 길 (본점)</span> </h2>
-            <p data-lang="location_desc">유비홀릭 전주본점은 효자동에 위치하고 있습니다.</p>
-            <div class="map-container iframe-container-wrapper">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d51773.21331655505!2d127.08010158094815!3d35.804208862265966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x35703b005643958f%3A0x5415d55c96261b8d!2z7Jyg67mE7ZmA66atIOyghOyjvOygkA!5e0!3m2!1sko!2skr!4v1749216571581!5m2!1sko!2skr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>      
+        <section id="services_eyelash" class="section fade-in-section">
+            <div class="container">
+                <h2><span class="material-symbols-outlined">visibility</span><span data-lang="eyelash_title"></span></h2>
+                <p class="section-description" data-lang="eyelash_desc"></p>
+                <div class="card-grid">
+                    <div class="ui-card">
+                        <img src="./section/services/eyelash_01.jpg" alt="속눈썹 연장 시술을 받는 모습" class="ui-card-image">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="eyelash_card_01_title"></h3>
+                            <div class="product-details" data-content-type="product" data-prefix="eyelash_extension" data-product-type="price" data-dynamic-area></div>
+                        </div>
+                    </div>
+                    <div class="ui-card">
+                        <img src="./section/services/eyelash_02.jpg" alt="속눈썹 펌 시술 후의 모습" class="ui-card-image">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="eyelash_card_02_title"></h3>
+                            <div class="product-details" data-content-type="product" data-prefix="eyelash_perm" data-product-type="price" data-dynamic-area></div>
+                        </div>
+                    </div>
+                    <div class="ui-card">
+                        <img src="./section/services/eyelash_03.jpg" alt="속눈썹 복원 케어를 받는 모습" class="ui-card-image">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="eyelash_card_03_title"></h3>
+                            <div class="product-details" data-content-type="product" data-prefix="eyelash_restore" data-product-type="price" data-dynamic-area></div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <p><strong data-lang="address_label">주소:</strong> <span data-lang="main_branch_address_text">전북 전주시 완산구 소태정3길 16-1 1층</span></p>
-        </div>
-    </section>
+        </section>
 
-    <section id="contact" class="section fade-in-section">
-        <div class="container">
-            <h2> <span class="material-symbols-outlined">contact_mail</span> <span data-lang="contact_title">연락처</span> </h2>
-            <p data-lang="contact_desc">궁금한 점이 있으시면 언제든지 문의해 주세요.</p>
-            <div class="contact-info">
-                <div class="contact-item"> <span class="material-symbols-outlined">person</span> <div class="text-content"> <strong data-lang="rep_label">대표:</strong> <span data-lang="rep_name_text">최유비 (Choi Yubi)</span> </div> </div>
-                <div class="contact-item"> <span class="material-symbols-outlined">call</span> <div class="text-content"> <strong data-lang="phone_label">연락처:</strong> <a href="tel:0507-1336-1520" data-lang="phone_num_text">0507-1336-1520</a> </div> </div>
-                <div class="contact-item"> <span class="material-symbols-outlined">email</span> <div class="text-content"> <strong data-lang="email_label">이메일:</strong> <span><a href="mailto:ubholic@gmail.com" data-lang="email_address_text">ubholic@gmail.com</a></span> </div> </div>
+        <section id="services_special" class="section fade-in-section">
+            <div class="container">
+                <h2><span class="material-symbols-outlined">auto_awesome</span><span data-lang="special_title"></span></h2>
+                <p class="section-description" data-lang="special_desc"></p>
+                <div class="card-grid grid-2">
+                    <div class="ui-card">
+                        <img src="./section/services/special_01.jpg" alt="자연눈썹 시술을 받은 모습" class="ui-card-image">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="special_card_01_title"></h3>
+                        </div>
+                        <div class="price-info">
+                            <div class="price-item">
+                                <span class="price-value" data-lang="special_card_01_price"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui-card">
+                        <img src="./section/services/special_02.jpg" alt="화장눈썹 시술을 받은 모습" class="ui-card-image">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="special_card_02_title"></h3>
+                        </div>
+                        <div class="price-info">
+                            <div class="price-item">
+                                <span class="price-value" data-lang="special_card_02_price"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui-card">
+                        <img src="./section/services/special_03.jpg" alt="아이라인 시술을 받은 눈매" class="ui-card-image">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="special_card_03_title"></h3>
+                        </div>
+                        <div class="price-info">
+                            <div class="price-item">
+                                <span class="price-value" data-lang="special_card_03_price"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui-card">
+                        <img src="./section/services/special_04.jpg" alt="매력적인 미인점 시술" class="ui-card-image">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="special_card_04_title"></h3>
+                        </div>
+                        <div class="price-info">
+                            <div class="price-item">
+                                <span class="price-value" data-lang="special_card_04_price"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
+        </section>
+
+        <section id="location" class="section fade-in-section">
+            <div class="container">
+                <h2><span class="material-symbols-outlined">storefront</span><span data-lang="location_title"></span></h2>
+                <p class="section-description" data-lang="location_desc"></p>
+                <div class="card-grid grid-2">
+                    <div class="ui-card">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="location_branch_01_name"></h3>
+                            <div class="ui-contact-list">
+                                <div class="ui-contact-item">
+                                    <strong class="item-label" data-lang="location_label_address"></strong>
+                                    <span class="item-value" data-lang="location_branch_01_address"></span>
+                                </div>
+                                <div class="ui-contact-item">
+                                    <strong class="item-label" data-lang="location_label_phone"></strong>
+                                    <a href="#" class="item-value" data-lang="location_branch_01_phone" data-lang-href="location_branch_01_phone_href"></a>
+                                </div>
+                                <div class="ui-contact-item">
+                                    <strong class="item-label" data-lang="location_label_services"></strong>
+                                    <span class="item-value" data-lang="location_branch_01_services"></span>
+                                </div>
+                            </div>
+                            <div class="action-buttons-container">
+                                <a data-lang-href="location_branch_01_url" class="cta-button" target="_blank" rel="noopener noreferrer">
+                                    <span class="material-symbols-outlined">map</span>
+                                    <span data-lang="location_button_text"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui-card">
+                        <div class="ui-card-content">
+                            <h3 class="ui-card-title" data-lang="location_branch_02_name"></h3>
+                             <div class="ui-contact-list">
+                                <div class="ui-contact-item">
+                                    <strong class="item-label" data-lang="location_label_address"></strong>
+                                    <span class="item-value" data-lang="location_branch_02_address"></span>
+                                </div>
+                                <div class="ui-contact-item">
+                                    <strong class="item-label" data-lang="location_label_phone"></strong>
+                                    <a href="#" class="item-value" data-lang="location_branch_02_phone" data-lang-href="location_branch_02_phone_href"></a>
+                                </div>
+                                <div class="ui-contact-item">
+                                    <strong class="item-label" data-lang="location_label_services"></strong>
+                                    <span class="item-value" data-lang="location_branch_02_services"></span>
+                                </div>
+                            </div>
+                            <div class="action-buttons-container">
+                                <a data-lang-href="location_branch_02_url" class="cta-button" target="_blank" rel="noopener noreferrer">
+                                    <span class="material-symbols-outlined">map</span>
+                                    <span data-lang="location_button_text"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p class="render-as-html" data-lang="copyright_text"></p>
         </div>
-    </section>
+    </footer>
 
-    <a href="#home" id="to-top-btn" class="hidden"> <span class="material-symbols-outlined">arrow_upward</span> </a>
-    <footer> <div class="container"> <p data-lang="footer_text">© 2025 유비홀릭 (UBHOLIC). All Rights Reserved.</p> </div> </footer>
-
-    <script src="./js/languages.js"></script>
-    <script src="./js/script.js"></script>
-
-    <script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
-    <script type="text/javascript">
-    if(!wcs_add) var wcs_add = {};
-    wcs_add["wa"] = "12f6751ec1fd520";
-    if(window.wcs) {
-      wcs_do();
-    }
-    </script>
-    
+    <a href="#home" id="to-top-btn" class="hidden">
+        <span class="material-symbols-outlined">arrow_upward</span>
+    </a>
 </body>
 </html>
