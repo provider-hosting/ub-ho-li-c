@@ -1,5 +1,5 @@
 /*
-    Last Modified: 2025-07-18 16:01
+    Last Modified: 2025-07-18 16:51
     Author: Maxim
     Contact: https://www.maxim.pe.kr
     License: © 2025 Maxim. All Rights Reserved.
@@ -83,7 +83,7 @@
 ================================================================= */
 #home .home-logo {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(4.5rem, 12vw, 7rem); /* 최대 크기 조정 */
+    font-size: clamp(3.5rem, 12vw, 7rem); /* 모바일 폰트 크기 문제 해결 */
     font-weight: 700;
     line-height: 1;
     letter-spacing: 2px;
@@ -111,21 +111,6 @@
 .product-item.is-sub-item .item-value {
     color: var(--text-secondary);
     font-size: 0.9rem;
-}
-
-/* Specific style for refill/re-perm items */
-.product-item.is-refill {
-    padding-inline-start: 8px; /* Indent */
-}
-.product-item.is-refill .item-label::before {
-    content: '↳';
-    margin-inline-end: 8px;
-    color: var(--text-accent);
-}
-
-/* Specific style for partial treatments (body) */
-.product-item.is-part {
-    /* No extra padding needed as '└' provides visual indent */
 }
 
 /* Remove border from contact list for cleaner look */
@@ -164,4 +149,10 @@
     align-items: flex-start;
     padding-block: 16px;
     padding-inline: 10px;
+}
+
+/* Arrow Color for Sub-Items */
+.accent-arrow {
+    color: var(--text-accent);
+    margin-inline-end: 8px;
 }
