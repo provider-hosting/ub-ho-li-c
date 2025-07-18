@@ -153,6 +153,7 @@
 
 /* Arrow Color for Sub-Items */
 .accent-arrow {
+    font-weight: 100;
     color: var(--text-accent);
     margin-inline-end: 8px;
 }
