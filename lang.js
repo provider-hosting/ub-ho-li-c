@@ -1,5 +1,5 @@
 /*
-    Last Modified: 2025-07-18 12:40
+    Last Modified: 2025-07-18 16:01
     Author: Maxim
     Contact: https://www.maxim.pe.kr
     License: © 2025 Maxim. All Rights Reserved.
@@ -101,6 +101,10 @@ const languages = {
         'eyelash_desc': 'We delicately design your eyes, one lash at a time.',
         'special_title': 'Special Care',
         'special_desc': 'Boost your confidence with our special care services.',
+        'special_card_01_desc': 'We design the most natural-looking eyebrow texture to fit your individual face shape.',
+        'special_card_02_desc': 'Creates a clear impression with natural shading, as if wearing makeup.',
+        'special_card_03_desc': 'Meticulously fills the waterline for defined and deep eyes, even without makeup.',
+        'special_card_04_desc': 'Adds a unique personality by creating a charming beauty mark in the desired location.',
         'location_title': 'Our Branches',
         'location_desc': 'Experience the best care at your nearest UBHOLIC.',
         'location_label_address': 'Address:',
@@ -119,6 +123,10 @@ const languages = {
         'eyelash_desc': '한 올 한 올 섬세한 터치로 당신의 눈매를 가장 아름답게 디자인합니다.',
         'special_title': '스페셜 케어',
         'special_desc': '당신의 숨겨진 매력을 찾아 자신감을 더해주는 특별한 관리입니다.',
+        'special_card_01_desc': '개개인의 얼굴형에 맞춰 가장 자연스러운 눈썹 결을 디자인합니다.',
+        'special_card_02_desc': '화장한 듯 자연스러운 음영을 주어 또렷한 인상을 완성합니다.',
+        'special_card_03_desc': '점막을 꼼꼼히 채워 민낯에도 선명하고 깊은 눈매를 연출합니다.',
+        'special_card_04_desc': '원하는 위치에 매력 포인트를 만들어 특별한 개성을 더합니다.',
         'location_title': '지점 안내',
         'location_desc': '가까운 유비홀릭에서 최상의 케어를 경험해 보세요.',
         'location_label_address': '주소:',

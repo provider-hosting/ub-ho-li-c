@@ -1,5 +1,5 @@
 /*
-    Last Modified: 2025-07-18 12:33
+    Last Modified: 2025-07-18 16:01
     Author: Maxim
     Contact: https://www.maxim.pe.kr
     License: © 2025 Maxim. All Rights Reserved.
@@ -83,7 +83,7 @@
 ================================================================= */
 #home .home-logo {
     font-family: 'Playfair Display', serif;
-    font-size: clamp(5rem, 3rem + 8vw, 8rem);
+    font-size: clamp(4.5rem, 3rem + 8vw, 7rem); /* 최대 크기 조정 */
     font-weight: 700;
     line-height: 1;
     letter-spacing: 2px;
